@@ -1,4 +1,6 @@
 {{$NEXT}}
+
+0.18  Fri Dec 14 19:28:52 GMT 2012
     - Support irssi logs with "/set show_nickmode_empty off"
 
 0.17  Tue Apr 24 00:54:21 GMT 2012
