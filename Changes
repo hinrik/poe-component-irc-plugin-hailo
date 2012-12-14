@@ -1,4 +1,5 @@
 {{$NEXT}}
+    - Support irssi logs with "/set show_nickmode_empty off"
 
 0.17  Tue Apr 24 00:54:21 GMT 2012
     - Add 'Replyrate' option for unsolicited replies
