@@ -125,6 +125,8 @@ sub _ignoring_user {
 sub _ignoring_abuser {
     my ($self, $user, $chan) = @_;
 
+    return if $self->{Own_channel} && $self->_is_own_channel($chan);
+
     my $key = "$user $chan";
     my $last_time = delete $self->{abusers}->{$key};
     $self->{abusers}->{$key} = time;
